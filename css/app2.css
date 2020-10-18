@@ -1,0 +1,14 @@
+.reseaux{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p{
+    text-align: center;
+}
+
+.lien{
+    text-decoration: none;
+}

@@ -1,0 +1,166 @@
+.titre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: monospace;
+}
+
+.reseaux {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cadre {
+    border-color: white;
+    border: white;
+}
+
+.insta {
+    height:200px;
+    border-radius: 10px;
+    background: violet;
+}
+
+.insta:hover {
+    background: violet;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background-size: cover;
+    border-radius: 8px;
+    border-width: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 0 7px;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+   
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,box-shadow;
+    transition-property: background-color,color,box-shadow,-webkit-box-shadow;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out; 
+
+    background-color: violet;
+    border-radius: 8px;
+    border-width: 0;
+    color: #00b0f4;
+    cursor: pointer;
+    display: block;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    transition: background-color .125s, box-shadow .125s, transform .125s, -webkit-box-shadow .125s, -webkit-transform .125s;
+}
+
+.yt {
+    height:200px;
+    border-radius: 10px;
+    background: red;
+}
+
+.yt:hover {
+    border-width:1;
+    border-radius: 10px;
+    background: red;
+    box-shadow: 8px 8px 8px rgb(63, 63, 63);
+}
+
+.twt {
+    height:200px;
+    border-radius: 10px;
+    background: turquoise;
+}
+
+.twt:hover {
+    border-width:1;
+    border-radius: 10px;
+    background: turquoise;
+    box-shadow: 8px 8px 8px rgb(63, 63, 63);
+}
+
+body {
+    background-image: url('https://images.wallpaperscraft.com/image/gradient_spots_texture_129927_1024x768.jpg');
+    background-size: cover;
+}
+
+.discord {
+    text-align: 'center';
+}
+
+.body2 {
+    background-image: url('https://cdn.discordapp.com/attachments/725248989984850050/767416767676284938/f7a4131e47f50b48b3f85f73c47ff1dc_4.png');
+    background-size: cover;
+}
+
+strong {
+    font-weight: 535;
+}
+
+.button1 {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #FFFFFF;
+    color: #7289da;
+    color: var(--brand);
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    background: white;
+    -webkit-box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    box-shadow: 0 8px 5px rgba(0,0,0,.2);
+
+    line-height: 24px;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,box-shadow;
+    transition-property: background-color,color,box-shadow,-webkit-box-shadow;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.button1:hover {
+    border-width:1;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    color: #0091ff;
+}
