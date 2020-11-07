@@ -21,56 +21,16 @@ body {
 }
 
 .insta:hover {
-    background: violet;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    align-items: center;
-    background-size: cover;
+    background-color: #2f3136;
     border-radius: 8px;
-    border-width: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-    height: auto;
-    justify-content: center;
-    margin: 0 0 7px;
-    outline: 0;
-    padding: 0;
-    position: relative;
-    width: 100%;
-   
-    line-height: 24px;
-    cursor: pointer;
-    font-weight: 500;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition-property: background-color,color,-webkit-box-shadow;
-    transition-property: background-color,color,-webkit-box-shadow;
-    transition-property: background-color,color,box-shadow;
-    transition-property: background-color,color,box-shadow,-webkit-box-shadow;
-    -webkit-transition-duration: .2s;
-    transition-duration: .2s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out; 
-
-    background-color: violet;
-    border-radius: 8px;
-    border-width: 0;
-    color: #00b0f4;
     cursor: pointer;
     display: block;
-    font-size: 100%;
-    margin: 0;
-    outline: 0;
-    padding: 0;
     position: relative;
-    text-decoration: none;
-    transition: background-color .125s, box-shadow .125s, transform .125s, -webkit-box-shadow .125s, -webkit-transform .125s;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
 }
 
 .yt {
@@ -80,10 +40,16 @@ body {
 }
 
 .yt:hover {
-    border-width:1;
-    border-radius: 10px;
-    background: red;
-    box-shadow: 8px 8px 8px rgb(63, 63, 63);
+    background-color: #2f3136;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
 }
 
 .twt {
@@ -93,10 +59,16 @@ body {
 }
 
 .twt:hover {
-    border-width:1;
-    border-radius: 10px;
-    background: turquoise;
-    box-shadow: 8px 8px 8px rgb(63, 63, 63);
+    background-color: #2f3136;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s;
+    transition: background-color .125s,box-shadow .125s,transform .125s,-webkit-box-shadow .125s,-webkit-transform .125s;
 }
 
 body {
@@ -109,6 +81,7 @@ body {
 }
 
 .body2 {
+    background-attachment: fixed;
     background-image: url('https://cdn.discordapp.com/attachments/725248989984850050/767416767676284938/f7a4131e47f50b48b3f85f73c47ff1dc_4.png');
     background-size: cover;
 }
